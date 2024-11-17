@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Cendrawasih Karawang</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      header img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      header h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+
+      nav {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.1rem;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .hero {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .about {
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .about h2 {
+        margin-bottom: 20px;
+      }
+
+      .about p {
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+      .facilities,
+      .reviews,
+      .location,
+      .rating {
+        margin: 20px 0;
+      }
+
+      .facilities h2,
+      .reviews h2,
+      .location h2,
+      .rating h2 {
+        text-align: center;
+      }
+
+      .facility-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .facility {
+        text-align: center;
+        width: 300px;
+      }
+
+      .facility img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .facility img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .location {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .location img {
+        width: 90%;
+        max-width: 600px;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      blockquote {
+        font-style: italic;
+        text-align: center;
+        margin: 20px auto;
+        max-width: 600px;
+      }
+
+      .rating {
+        text-align: center;
+      }
+
+      .rating img {
+        width: 30px;
+        margin: 0 2px;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="images/267.jpg" alt="Hotel View" />
+      <h1>Cendrawasih Hotel Karawang</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reservation.html">Reservation</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+    <main>
+      <section class="hero">
+        <h2>Welcome to Cendrawasih Hotel</h2>
+      </section>
+      <section class="about">
+        <h2>About Us</h2>
+        <p>
+          Cendrawasih Hotel is your perfect getaway destination in the heart of
+          the city. We offer luxurious accommodations, state-of-the-art
+          facilities, and exceptional service to make your stay unforgettable.
+          Enjoy the finest amenities and a comfortable stay with us.
+        </p>
+      </section>
+      <section class="facilities">
+        <h2>Our Facilities</h2>
+        <div class="facility-list">
+          <div class="facility">
+            <img src="images/268.jpg" alt="Swimming Pool" />
+            <h3>Spa</h3>
+          </div>
+          <div class="facility">
+            <img src="images/stasiun.jpg" alt="Stasiun" />
+            <h3>Close To Station</h3>
+          </div>
+          <div class="facility">
+            <img src="images/karawang.jpg" alt="Karawang" />
+            <h3>At Center Of City</h3>
+          </div>
+        </div>
+      </section>
+      <section class="location">
+        <h2>Our Location</h2>
+        <p>
+          Jl. Babakan Cianjur, Nagasari, Kec. Karawang Bar., Kabupaten Karawang,
+          Jawa Barat 41312
+        </p>
+        <img src="Maps.png" alt="Map showing hotel location" />
+      </section>
+      <section class="rating">
+        <h2>Rating</h2>
+        <div>
+          <img src="images/star.png" alt="Star" />
+          <img src="images/star.png" alt="Star" />
+          <img src="images/star.png" alt="Star" />
+          <img src="images/star.png" alt="Star" />
+          <img src="images/star.png" alt="Star" />
+        </div>
+      </section>
+      <section class="reviews">
+        <h2>What Our Guests Say</h2>
+        <blockquote>
+          "Hotel melati ini sangat cocok untuk budget hotel. Harganya sangat
+          terjangkau, hanya untuk kelas standar tidak ada TV. Hanya Executive
+          yang menggunakan TV, AC penuh, tetapi pelayanannya bagus untuk hotel
+          kelas atas. Jika hanya untuk tidur semalam, ini adalah pilihan budget
+          hotel yang paling direkomendasikan." - RM
+        </blockquote>
+        <blockquote>
+          "Suasana hotel ini sangat nyaman dengan pelayanan staf yang ramah dan
+          fasilitas yang lengkap." - El
+        </blockquote>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Cendrawasih Hotel</p>
+    </footer>
+  </body>
+</html>
